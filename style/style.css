@@ -25,19 +25,22 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     background: url(/image/frame-iphone.png);
+
+}
+
+#tela {
+    position: relative;
+    top: 79px;
+    left: 22px;
+    height: 474px;
+    width: 268px;
+    border-radius: 2px;
 }
 
 #redes-sociais {
-    background: red;
-    width: 500px;
-    height: 300px;
     display: flex;
     flex-direction: column;
-}
-
-.redes {
-    display: flex;
-    width: 50px;
+    justify-content: space-between;
+    width: 100px;
     border-radius: 50px;
-    justify-content: flex-end;
 }
