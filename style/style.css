@@ -29,10 +29,10 @@ section#telefone {
 section#telefone iframe{
     position: relative;
     top: 79px;
-    left: 22px;
+    left: 21.2px;
     height: 474px;
-    width: 268px;
-    border-radius: 2px;
+    width: 269.5px;
+    border-radius: 4px;
 }
 
 section#redes-sociais {
