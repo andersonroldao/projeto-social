@@ -26,7 +26,7 @@ section#telefone {
     background: url(../image/frame-iphone.png);
 }
 
-section#telefone iframe{
+section#telefone iframe {
     position: relative;
     top: 79px;
     left: 21.2px;
@@ -54,4 +54,32 @@ section#redes-sociais img:hover {
     transform: translate(-2px, -2px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
     transition: .1s;
+}
+
+@media screen and (max-height: 640px) {
+    section#telefone {
+        position: absolute;
+        width: 311px;
+        height: 331px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: url(../image/frame-iphone150.png);
+    }
+
+    section#telefone iframe {
+        position: relative;
+        top: 41px;
+        left: 84px;
+        height: 252px;
+        width: 144px;
+        border-radius: 4px;
+    }
+
+    section#redes-sociais img {
+        box-sizing: border-box;
+        width: 35px;
+        border-radius: 50%;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    }
 }
